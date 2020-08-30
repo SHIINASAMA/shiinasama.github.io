@@ -7,7 +7,7 @@
 
 - 常用平台（目标平台）：Windows、Android、Linux发行版等
 
-- 基本掌握框架或技术：dotnet（WinForm、WPF）、Flutter、Duilib、SQL系（MSSQL、MySQL、SQLite，暂时没摸过Oracle）、Qt、OpenGL、MFC等
+- 基本掌握框架或技术：dotnet（WinForm、WPF）、Flutter、Duilib、SQL系（MSSQL、MySQL、SQLite，暂时没摸过Oracle）、Qt、OpenGL、MFC、Win32等
 
 - 常用IDE（编辑器）：VS、VSCODE、IDEA、~~PYCHARM~~
 
