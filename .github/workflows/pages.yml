@@ -8,15 +8,14 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Build
-        runs: |
+        run: |
           npm install
           npm run build
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4
-        withs:
+        with:
           folder: out
