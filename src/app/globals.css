@@ -18,7 +18,6 @@ body {
     font-size: 1.5em;
     line-height: 1.6;
     font-weight: 400;
-    font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #FFFFFF;
     max-width: 950px;
     margin: auto;
@@ -36,6 +35,7 @@ h6 {
     margin-top: 0;
     margin-bottom: 1rem;
     font-weight: 300;
+    font-family: font-maple-mono, helvetica, arial, sans-serif;
 }
 
 h1 {
@@ -78,6 +78,7 @@ p {
     margin: 0 auto 1.1em auto;
     /* bottom margin for paragraphs */
     font-size: 1.0rem;
+    font-family: font-maple-mono, helvetica, arial, sans-serif;
 }
 
 header,

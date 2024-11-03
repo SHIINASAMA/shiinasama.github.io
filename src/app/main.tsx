@@ -24,11 +24,11 @@ const Main: React.FC = () => {
                 <p>
                     Passionate and wide-ranging developers who have been on GitHub since 2019. Familiarity with multiple
                     technology stacks, including but not limited to:
-                    C++, Python, Typescript, etc. I ware contributed code to several open source organizations and
+                    C++, Python, Typescripts, etc. I ware contributed code to several open source organizations and
                     projects, and has also hosted a number of projects on GitHub.
                 </p>
                 <p>
-                    I am good at building systems, especially CMake, cross-platform and server backend development, and
+                    I am good at build systems, especially CMake, cross-platform and server backend development, and
                     has a lot of experience in desktop development.
                     He has rich experience in using GitHub Actions, GitLab pipeline, etc. Familiar with MFC, Duilib, Qt,
                     Electron, Spring, etc.
@@ -53,9 +53,9 @@ const Main: React.FC = () => {
 
                 <picture>
                     <source media="(prefers-color-scheme: dark)"
-                            srcSet="https://raw.githubusercontent.com/shiinasama/shiinasama/output/github-snake-dark.svg"/>
+                            srcSet={"https://raw.githubusercontent.com/shiinasama/shiinasama/output/github-snake-dark.svg"}/>
                     <source media="(prefers-color-scheme: light)"
-                            srcSet="https://raw.githubusercontent.com/shiinasama/shiinasama/output/github-snake.svg"/>
+                            srcSet={"https://raw.githubusercontent.com/shiinasama/shiinasama/output/github-snake.svg"}/>
                     <img alt="github-snake"
                          src="https://raw.githubusercontent.com/shiinasama/shiinasama/output/github-snake.svg"/>
                 </picture>
