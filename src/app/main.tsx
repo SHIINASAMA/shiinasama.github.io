@@ -28,7 +28,7 @@ const Main: React.FC = () => {
                     projects, and has also hosted a number of projects on GitHub.
                 </p>
                 <p>
-                    I'm good at building systems, especially CMake, cross-platform and server backend development, and
+                    I am good at building systems, especially CMake, cross-platform and server backend development, and
                     has a lot of experience in desktop development.
                     He has rich experience in using GitHub Actions, GitLab pipeline, etc. Familiar with MFC, Duilib, Qt,
                     Electron, Spring, etc.
