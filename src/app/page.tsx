@@ -1,11 +1,6 @@
 import MyHeader from "@/app/components/myheader";
 import Main from "@/app/main"
 
-export const metadata = {
-    title: "Hi, I'm Kaoru 👋",
-    description: "Kaoru's Profile",
-};
-
 export default async function Home() {
     return (
         <div className="rounded-container">
