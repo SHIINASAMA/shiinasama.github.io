@@ -21,10 +21,45 @@ const Main: React.FC = () => {
 
             <div>
                 <h3>About me</h3>
+                <p>
+                    Passionate and wide-ranging developers who have been on GitHub since 2019. Familiarity with multiple
+                    technology stacks, including but not limited to:
+                    C++, Python, Typescript, etc. I ware contributed code to several open source organizations and
+                    projects, and has also hosted a number of projects on GitHub.
+                </p>
+                <p>
+                    I'm good at building systems, especially CMake, cross-platform and server backend development, and
+                    has a lot of experience in desktop development.
+                    He has rich experience in using GitHub Actions, GitLab pipeline, etc. Familiar with MFC, Duilib, Qt,
+                    Electron, Spring, etc.
+                </p>
+                <p>
+                    I have to mention that although I was first introduced to coding through Java in 2014, I would
+                    hardly actually choose Java as my go-to language for development, ironically still
+                    Heavy users of CLion. Currently, he is mainly focused on building his own cross-platform development
+                    framework, SESE.
+                </p>
             </div>
 
-            <img alt="github-snake"
-                 src="https://raw.githubusercontent.com/shiinasama/shiinasama/output/github-snake.svg"/>
+            <div>
+                <h3>Status</h3>
+
+                <div style={{display: "flex", justifyContent: "center", alignItems: "center", gap: 30}}>
+                    <img style={{height: 160}} alt="status1"
+                         src="https://github-readme-stats.vercel.app/api?username=SHIINASAMA&count_private=true&show_icons=true&theme=tokyonight&hide_border=true"/>
+                    <img style={{height: 160}} alt="status2"
+                         src="https://github-readme-stats.vercel.app/api/top-langs/?username=SHIINASAMA&hide=cmake,v,powershell&layout=compact&theme=tokyonight&hide_border=true"/>
+                </div>
+
+                <picture>
+                    <source media="(prefers-color-scheme: dark)"
+                            srcSet="https://raw.githubusercontent.com/shiinasama/shiinasama/output/github-snake-dark.svg"/>
+                    <source media="(prefers-color-scheme: light)"
+                            srcSet="https://raw.githubusercontent.com/shiinasama/shiinasama/output/github-snake.svg"/>
+                    <img alt="github-snake"
+                         src="https://raw.githubusercontent.com/shiinasama/shiinasama/output/github-snake.svg"/>
+                </picture>
+            </div>
         </div>
     );
 }

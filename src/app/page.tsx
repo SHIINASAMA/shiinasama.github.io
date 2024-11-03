@@ -3,7 +3,7 @@ import Main from "@/app/main"
 
 export default async function Home() {
     return (
-        <div className="rounded-container">
+        <div className="my-container">
             <MyHeader img={"https://avatars.githubusercontent.com/u/40531369?v=4"}
                     title={"Kaoru@Earth at ~"}
                     description={"Good things come to those who wait."}/>

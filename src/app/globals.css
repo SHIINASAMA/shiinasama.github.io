@@ -21,13 +21,7 @@ body {
     font-family: "Roboto", "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #FFFFFF;
     max-width: 950px;
-    margin: 25px auto;
-}
-
-#content {
-    background: rgba(0, 0, 0, 0);
-    padding: 25px;
-    color: #FFFFFF;
+    margin: auto;
 }
 
 h1,
@@ -94,11 +88,9 @@ footer {
     color: #FFFFFF;
 }
 
-.rounded-container {
+.my-container {
     background: rgba(0, 0, 0, 0.8);
-    border-radius: 20px;
     overflow: hidden;
-    margin: 25px auto;
     padding: 25px;
 }
 
