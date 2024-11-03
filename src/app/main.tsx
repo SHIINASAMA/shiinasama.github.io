@@ -36,7 +36,7 @@ const Main: React.FC = () => {
                 <p>
                     I have to mention that although I was first introduced to coding through Java in 2014, I would
                     hardly actually choose Java as my go-to language for development, ironically still
-                    Heavy users of CLion. Currently, he is mainly focused on building his own cross-platform development
+                    Heavy users of CLion. Currently, I am mainly focused on building mine own cross-platform development
                     framework, SESE.
                 </p>
             </div>
